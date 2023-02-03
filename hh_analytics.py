@@ -1,3 +1,4 @@
+# @cigvincev
 import os
 import json
 import requests
@@ -107,7 +108,7 @@ async def helpcommand(message: types.Message, state: FSMContext):
 
 
 '''
-# ps Я в поиске работы и если вам нужен аналитик данных, пишите @cigvincev
+# ps 
     s1 = text('Для поиска и анализа вакансий отправь боту сообщение с названием вакансии (без кавычек), например, ',
         code('продавец-консультант'),
          '\nМожешь отправить уточняющий запрос, например, ',
@@ -118,7 +119,7 @@ async def helpcommand(message: types.Message, state: FSMContext):
         'Зарплаты приведены NET, в рублях по курсу ЦБ РФ на дату обращения.\n',
         'Бот написан на Python, работает через API HH, "хостится" на Yandex Cloud (serverless).\n',
         '(!) Ограничения бота: макимальный размер выдачи не более 2000 вакансий (ограничение hh).\n',
-        italic('\n ps Я в поиске работы и если вам нужен аналитик данных (джун), пишите @cigvincev'))
+        italic('\n ps тут ваша реклама'))
 
     await message.reply(s)
 
